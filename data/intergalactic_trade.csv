@@ -1,0 +1,11 @@
+TradeID,Planet,Species,Item,Quantity,Price,TradeDate
+1001,Mars,Martian,Red Dust,50,20000,3025-06-15
+1002,Venus,Venusian,Acidic Crystals,10,150000,3025-06-16
+1003,Neptune,Neptunian,Water Essence,25,50000,3025-06-17
+1004,Earth,Human,Gold Bars,5,30000,3025-06-18
+1005,Jupiter,Jovian,Gas Extract,100,7000,3025-06-19
+1006,Saturn,Saturnian,Ring Particles,200,500,3025-06-20
+1007,Pluto,Plutonian,Ice Diamonds,15,120000,3025-06-21
+1008,Titan,Titanian,Gravity Boots,12,6000,3025-06-22
+1009,Alpha Centauri,Zenthorian,Quantum Chips,8,250000,3025-06-23
+1010,Andromeda,Andromedian,Dark Matter Flask,3,1000000,3025-06-24

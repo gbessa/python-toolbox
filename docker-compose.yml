@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  jupyter:
+    build: .
+    image: jupyter/datascience-notebook  # comes with pandas, matplotlib, NumPy, etc.Or jupyter/minimal-notebook
+    container_name: jupyter_notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work  # Mounts local notebooks directory (host_path:container_path)
+      - ./data:/home/jovyan/data
+      - ./to_ignore:/home/jovyan/to_ignore
+      - .env:/home/jovyan/.env
+    environment:
+      - JUPYTER_ENABLE_LAB=yes  # Enables JupyterLab
+    command: start-notebook.sh --NotebookApp.token=''  # Disable token authentication
